@@ -1,5 +1,10 @@
 # CS-GOExternalCheat
-This is a simple CS:GO Cheat that is used for study purpouse.
+This is a simple CS:GO external Cheat which is used for study purpouse only.
+--------
+
+
+
+
 
 <p align="center">
   <img src="https://s18.postimg.org/esyzn9yax/Untitled_1.png"/>
