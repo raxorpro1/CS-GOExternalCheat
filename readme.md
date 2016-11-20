@@ -11,9 +11,8 @@ Just start a new branch and I'll look into it.
 I'm using this code to study how Valve is trying to catch cheaters and how to help them to improve the VAC system.
 If you are planing to use this code anywhere else feel free to do so, but refer me as the developer.
 
-
- ______________________
-< Cow Says: Do not cheat kids >
+ ----------------------
+|< Cow Says: Do not cheat kids >
  ----------------------
         \   ^__^
          \  (oo)\_______
