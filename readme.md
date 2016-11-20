@@ -27,4 +27,8 @@ If you are planing to use this code anywhere else feel free to do so, but refer 
 
 
 I'm not responsible for the use of this software, if you get banned it's your problem =]
+
+
+To checkout this code import it to Visual Studio 2015 or later.
+Some part of the codes belong to other people, but are under open-source license (All of the copryrights are commented on the first line of each file and the owner is mentioned)
  
