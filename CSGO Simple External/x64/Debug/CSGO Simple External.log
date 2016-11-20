@@ -1,0 +1,71 @@
+﻿  Trigger.cpp
+  SlowAim.cpp
+  PMemory.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(54): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(54): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(94): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'DWORD'
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(94): warning C4302: 'type cast': truncation from 'LPVOID' to 'DWORD'
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(113): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(162): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(162): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(165): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.cpp(165): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+  NoHands.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(67): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\nohands.cpp(18): note: see reference to function template instantiation 'void ProcMem::Write<char[256]>(DWORD,char [])' being compiled
+  NoFlash.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(67): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\noflash.cpp(18): note: see reference to function template instantiation 'void ProcMem::Write<float>(DWORD,cData)' being compiled
+          with
+          [
+              cData=float
+          ]
+  Misc.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(67): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\misc.cpp(27): note: see reference to function template instantiation 'void ProcMem::Write<int>(DWORD,cData)' being compiled
+          with
+          [
+              cData=int
+          ]
+  Main.cpp
+  LocalPlayer.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(43): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\localplayer.cpp(27): note: see reference to function template instantiation 'cData ProcMem::Read<DWORD>(DWORD)' being compiled
+          with
+          [
+              cData=DWORD
+          ]
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(67): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\localplayer.cpp(153): note: see reference to function template instantiation 'void ProcMem::Write<DWORD>(DWORD,cData)' being compiled
+          with
+          [
+              cData=DWORD
+          ]
+  Glow.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(43): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\glow.cpp(21): note: see reference to function template instantiation 'cData ProcMem::Read<bool>(DWORD)' being compiled
+          with
+          [
+              cData=bool
+          ]
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(67): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\glow.cpp(33): note: see reference to function template instantiation 'void ProcMem::Write<float>(DWORD,cData)' being compiled
+          with
+          [
+              cData=float
+          ]
+  Bhop.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(67): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\bhop.cpp(30): note: see reference to function template instantiation 'void ProcMem::Write<int>(DWORD,cData)' being compiled
+          with
+          [
+              cData=int
+          ]
+  AutoPistol.cpp
+c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\pmemory.h(67): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  c:\users\matheus\downloads\cs-go-simple-external-master\cs-go-simple-external-master\csgo simple external\csgo simple external\autopistol.cpp(17): note: see reference to function template instantiation 'void ProcMem::Write<int>(DWORD,cData)' being compiled
+          with
+          [
+              cData=int
+          ]
+  Generating Code...
