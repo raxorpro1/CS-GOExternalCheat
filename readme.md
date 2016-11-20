@@ -1,17 +1,10 @@
 # CS-GOExternalCheat
 This is a simple CS:GO Cheat that is used for study purpouse.
 
-__________                    __________                     ____ 
-\______   \_____  ___  _______\______   \_____________  ____/_   |
- |       _/\__  \ \  \/  /  _ \|       _/\____ \_  __ \/  _ \|   |
- |    |   \ / __ \_>    <  <_> )    |   \|  |_> >  | \(  <_> )   |
- |____|_  /(____  /__/\_ \____/|____|_  /|   __/|__|   \____/|___|
-        \/      \/      \/            \/ |__|                     
-                                                   
+<p align="center">
+  <img src="https://s18.postimg.org/esyzn9yax/Untitled_1.png"/>
+</p>
 
-
-
-												   
 This source code is open to anyone who wants to change the code to make it work better.
 Just start a new branch and I'll look into it.
 
